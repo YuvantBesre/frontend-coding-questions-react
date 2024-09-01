@@ -1,7 +1,7 @@
 import React from 'react'
 import useTicTacToe from '../hooks/useTicTacToe';
 
-const TicTacToe = ({ boardSize = 4 }) => {
+const TicTacToeBoard = ({ boardSize = 4 }) => {
     const {board, winner, continueTheGame, resetGame} = useTicTacToe(boardSize);
     return (
         <div className='board-parent'> 
@@ -27,4 +27,4 @@ const TicTacToe = ({ boardSize = 4 }) => {
     )
 }
 
-export default TicTacToe
+export default TicTacToeBoard
