@@ -40,10 +40,6 @@ const OtpInput = ({ size = 4 }) => {
     }
     return (
         <div className='board-parent otp-parent'>
-            <form onSubmit={handleFormSubmit} style={{ display : 'none' }}>
-                <input type="text" />
-            </form>
-
             {
                 otp &&
                 <h4 style={{ textAlign : 'center' }}> The OTP is {otp} </h4>

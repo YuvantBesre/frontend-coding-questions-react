@@ -13,6 +13,9 @@ const Home = () => {
             <li>
                 <Link to={'/otp-input'}> OTP Input </Link>
             </li>
+            <li>
+                <Link to={'/progress-bar'}> Progress Bar </Link>
+            </li>
         </ul>
     </>
   )

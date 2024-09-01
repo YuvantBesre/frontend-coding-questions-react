@@ -37,3 +37,32 @@
   text-align: center;
 }
 
+.progress-bar {
+  width: 50%;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  border: 1px solid black;
+  overflow: hidden;
+  position: relative;
+  z-index: 4;
+}
+
+.progress-bar > span {
+  position: relative;
+  z-index: 1;
+}
+
+.progress-bar > div {
+  background-color: lightcoral;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: 0;
+  width: 100%;
+  transform-origin: left;
+  transition: 1s ease-in-out;
+}

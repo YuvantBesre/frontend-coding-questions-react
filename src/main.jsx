@@ -1,14 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 import TicTacToe from './pages/TicTacToe.jsx'
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
+import App from "./App.jsx"
 import HomePage from './pages/Home'
 import OtpInput from './components/otpInput.jsx'
+import ProgressBar from './pages/ProgressBar.jsx';
 
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
   {
     path: "/otp-input",
     element: <OtpInput />
+  },
+  {
+    path: "/progress-bar",
+    element: <ProgressBar />
   },
 ]);
 
