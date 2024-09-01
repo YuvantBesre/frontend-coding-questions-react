@@ -1,0 +1,23 @@
+.board-parent {
+  height: 100vh;
+  align-content: center;
+}
+
+.board {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(var(--board-size), 1fr);
+  max-width: 30vw;
+  text-align: center;
+  justify-content: center;
+}
+
+.board > div {
+  border: 1px solid black;
+  height: 100px;
+  align-content: center;
+  background-color: lightblue;
+  cursor: pointer;
+  font-size: 30px;
+  user-select: none;
+}
