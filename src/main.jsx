@@ -12,6 +12,7 @@ import OtpInput from './components/otpInput.jsx'
 import ProgressBar from './pages/ProgressBar.jsx';
 import DragAndDrop from './pages/DragAndDrop.jsx';
 import CustomUseEffect from './pages/CustomUseEffect.jsx';
+import TrafficLight from './pages/TrafficLight.jsx';
 
 
 const router = createBrowserRouter([
@@ -39,11 +40,13 @@ const router = createBrowserRouter([
     path: "/custom-use-effect",
     element: <CustomUseEffect />
   },
+  {
+    path: "/traffic-light",
+    element: <TrafficLight />
+  },
 ]);
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <RouterProvider router={router}/>
-  </StrictMode>,
+  <RouterProvider router={router}/>
 )

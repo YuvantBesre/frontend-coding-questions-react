@@ -95,3 +95,25 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.light-parent {
+  height: 500px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: #373737;
+}
+
+.light {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: gray;
+}
