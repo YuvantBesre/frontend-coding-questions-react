@@ -16,6 +16,15 @@ const Home = () => {
             <li>
                 <Link to={'/progress-bar'}> Progress Bar </Link>
             </li>
+            <li>
+                <Link to={'/drag-drop'}> Drag And Drop </Link>
+            </li>
+            <li>
+                <Link to={'/custom-use-effect'}> UseEffect Polyfill </Link>
+            </li>
+            <li>
+                <Link to={'/custom-use-effect'}> UseMemo Polyfill </Link>
+            </li>
         </ul>
     </>
   )

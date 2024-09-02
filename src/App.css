@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .board-parent {
   height: 100vh;
   align-content: center;
@@ -65,4 +70,28 @@
   width: 100%;
   transform-origin: left;
   transition: 1s ease-in-out;
+}
+
+.dd-board {
+  background-color: azure;
+  height: 100vh;
+  position: relative;
+}
+
+.note {
+  background-color: blanchedalmond;
+  width: 250px;
+  font-size: 1rem;
+  position: absolute;
+  cursor: move;
+  user-select: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
